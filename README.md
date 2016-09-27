@@ -10,7 +10,7 @@ Have you ever noticed a group of friends Playing mobile phone. When you click on
 #Example
 ```javascript
 1)ion-tabs导航
-  打开页面添加 ng-class="{'tabs-item-hide': hideTabs};
+  打开页面添加 "ng-class="{'tabs-item-hide': hideTabs}";
 <ion-tabs class="tabs-icon-top tabs-color-active-positive" ng-class="{'tabs-item-hide': hideTabs}">
 </ion-tabs>
 2)注意添加这个模块hideTabs的directive js 注意app=angular.module(‘directive’, [])
