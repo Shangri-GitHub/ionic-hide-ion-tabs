@@ -11,7 +11,7 @@ Have you ever noticed a group of friends Playing mobile phone. When you click on
    <button class="button button-positive button-full">
     full button
    </button>
-  <ionic-scroll style="height=100%">
+  <ionic-scroll style="height:100%">
    content展示区
   <ionic-scroll 
  <ion-content>
