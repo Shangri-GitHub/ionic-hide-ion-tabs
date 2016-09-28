@@ -16,7 +16,7 @@ Some skill on ionic;Help you solve some difficult problems.
   <ion-scroll> 
  <ion-content>
 </ion-view>
-
+底部的导航消失
 1)ion-tabs导航
   打开页面添加 'ng-class="{'tabs-item-hide': hideTabs}';
 <ion-tabs class="tabs-icon-top tabs-color-active-positive" ng-class="{'tabs-item-hide': hideTabs}">
