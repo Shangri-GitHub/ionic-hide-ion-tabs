@@ -2,7 +2,7 @@
 ionic hide ion-tabs and resolve scroll problem
 #Instructions
 ##About
-Have you ever noticed a group of friends Playing mobile phone. When you click on the button on the mobile phone or ipad, button rock will bring you a new experience, could not help but like click with your fingers.
+Some skill on ionic;Help you solve some difficult problems. 
 #Example
 ```javascript
 头部的条不随着内容区的条动
