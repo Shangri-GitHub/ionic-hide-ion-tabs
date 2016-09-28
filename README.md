@@ -5,6 +5,13 @@ ionic hide ion-tabs and resolve scroll problem
 Some skill on ionic;Help you solve some difficult problems. 
 #Example
 ```javascript
+写在app.js中
+ .config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+        // 解决模板底部跑到上部和顶层文字不能居中问题start
+        $ionicConfigProvider.platform.android.tabs.position("bottom");
+        // 解决模板底部跑到上部和顶层文字不能居中问题end
+        $ionicConfigProvider.navBar.alignTitle('center');
+   });
 头部的条不随着内容区的条动
 <ion-view>
  <ion-content scroll="false">
